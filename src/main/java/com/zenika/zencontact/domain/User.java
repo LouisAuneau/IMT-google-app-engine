@@ -25,7 +25,6 @@ public class User implements Serializable {
 	@Unindex
 	public String notes;
 
-	@Ignore
 	public BlobKey photoKey; // points to the blobstore entry if any
 	
 	@Ignore
